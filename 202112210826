@@ -58,4 +58,10 @@ git remote add origin git@github.com:Zhangliangbao/Zhangliangbao.git
 git remote rm origin
 git push -u origin main
 
+假定你需要一个dev（此处假定远程库中已经存在此分支，也就是你需要克隆的）分支用于开发的话，你需要在dev分支上开发，就必须创建远程origin的dev分支到本地，于是用这个命令创建本地dev分支：
+$ git checkout -b dev origin/dev
+再同步下：
+$ git pull
+这样就实现了克隆dev分支。
+
 rm -rf xx #删除目录#

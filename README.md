@@ -7,4 +7,4 @@
 <!---
 Zhangliangbao/Zhangliangbao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->第一次配置记得查看当前能ping通的ip，然后加入network中
+--->For the first configuration, remember to check the current IP that can ping, and then join the network，so that we can use the github fluently.

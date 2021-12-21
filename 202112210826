@@ -52,7 +52,7 @@ ssh-keygen -C 'example@example.com' -t rsa
 cd ~/.ssh
 cat id_rsa.pub
 
-与远程仓库连接
+与远程仓库连接(https://blog.csdn.net/linzeliang1222/article/details/108571202)配置个人秘钥代替密码
 git remote add origin git@github.com:Zhangliangbao/Zhangliangbao.git
 删除连接
 git remote rm origin

@@ -6,6 +6,38 @@ cd Zhangliangbao
 git config user.name Zhangliangbao
 git config user.email z_573826040@163.com
 git init #初始化仓库#
-touch README.txt
+touch README.txt #在工作目录创建文件#
 vim README.txt #vim 3种模式，末行模式退出
 cat REAMDE.txt #连接文件，输出内容到标准输出设备
+git add README.txt #将文件添加到本地仓库（缓存区？）
+git commit -m "Submit a new file." #将文件提交到仓库，并添加描述信息”#
+vim README.txt #对其进行修改#
+git status #查看仓库当前状态，可知README.txt文件被修改过了，但是现在还没有改动需要git submit,因为要先git add
+git diff #查看文件有哪些改动#
+git add README.txt #添加到缓存区
+git status #可知等待commit#
+git commit -m "Modify a file" #提交到本地仓库#
+git status
+git log #使用git进行版本控制，重要的用途之一就是版本回退，使用 log 查看仓库修改日志
+git log --pretty=oneline #类似于2次操作地址#
+cat README.txt #先查看一下当前输出
+git reset --hard HEAD^ #HEAD表示当前版本，HEAD^表示上一版本，HEAD^^表示上上版本
+cat README.txt #查看修改文件之前的内容
+
+概念
+1、工作区（Working Directory），我们创建的learnGit目录
+2、版本库，仓库（Repository) 工作区有个隐藏目录.git,不属于工作区，而是Git 的版本库，版本库里面的index(stage)文件是暂存区，还有Git为我们自动创建的第一个分支master，
+以及指向master的一个指针叫做HEAD
+关系
+1、第一步是用git add 把文件添加进去，实际上是把文件修改添加到暂存区
+2、第二步是用git commit 提交更改，把暂存区的所有内容提交到当前分支 #提交后可以用 git diff HEAD-- readme.txt 命令区查看工作区和版本库里面最新版本的区别
+撤销修改 
+1、在工作区
+git status
+git checkout
+2、在暂存区
+修改文件add过，但没commit
+git status
+git reset 可退回工作区，然后checkout撤销就行
+3、在仓库
+add并commit后，只能版本回退，上面有 git reset --hard HEAD^

@@ -1,0 +1,11 @@
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb #从网上下载最新版google-chrome#
+sudo dpkg -i google-chrome-stable_current_amd64.deb #dpkg 安装#
+
+mkdir Zhangliangbao #新建目录#
+cd Zhangliangbao
+git config user.name Zhangliangbao
+git config user.email z_573826040@163.com
+git init #初始化仓库#
+touch README.txt
+vim README.txt #vim 3种模式，末行模式退出
+cat REAMDE.txt #连接文件，输出内容到标准输出设备

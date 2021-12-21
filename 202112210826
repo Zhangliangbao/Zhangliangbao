@@ -57,3 +57,5 @@ git remote add origin git@github.com:Zhangliangbao/Zhangliangbao.git
 删除连接
 git remote rm origin
 git push -u origin main
+
+rm -rf xx #删除目录#

@@ -41,3 +41,11 @@ git status
 git reset 可退回工作区，然后checkout撤销就行
 3、在仓库
 add并commit后，只能版本回退，上面有 git reset --hard HEAD^
+删除
+rm 然后git rm表示确实删除，再git commit 到仓库
+远程操作
+需要完成SSH公钥配置
+ssh-keygen -C 'example@example.com' -t rsa
+cd ~/.ssh
+cat id_rsa.pub
+

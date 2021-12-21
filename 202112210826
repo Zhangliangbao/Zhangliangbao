@@ -1,3 +1,6 @@
+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
+
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb #从网上下载最新版google-chrome#
 sudo dpkg -i google-chrome-stable_current_amd64.deb #dpkg 安装#
 

@@ -70,4 +70,4 @@ git checkout xx #切换分支#
 
 rm -rf xx #删除目录#
 
-
+git pull origin Learing-git #其他项目成员对项目做了改动并推送到服务器，我们需要将最新的改动更新到本地#

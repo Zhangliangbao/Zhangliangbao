@@ -103,6 +103,7 @@ vs Code 需要为工程配置3个文件：
 'launch.json':调试器配置
 'c_cpp_properties.json':编译器路径、智能提示
 
-
+df 是查看文件系统的使用空间
+du 是查看文件和目录磁盘使用的空间 -h
 
 

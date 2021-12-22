@@ -93,5 +93,11 @@ alias ls='ls -- color'
 alias sh='bash'
 #按：wq保存退出
 source ~/.bashrc
+或注意兼容性问题
+在root下执行dpkg-reconfigure dash 选择no
+su
+输入密码即可
+
+
 
 

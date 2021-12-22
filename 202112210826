@@ -66,7 +66,7 @@ $ git pull #将服务器上的最新代码拉取到本地#
 
 git branch #查看分支#
 git branch -d xx #删除分支#
-git checkout xx #切换分支#
+git checkout xx #切换分支 git checkout -b xx 创建分支，同时切换到这个新创建的分支#
 
 rm -rf xx #删除目录#
 
@@ -77,4 +77,8 @@ git log #通过以上命令，查看整个项目的版本提交记录，J下翻�
 git tag #为项目标记里程碑#
 
 touch .gitignore #.gitignore不是git命令，是一个文件告诉git哪些不需要提交到服务器#
+
+git merge #把其他分支合并到当前分支#
+git checkout --orphan new_branch #创建一个全新的，完全没有历史几率的新分支，但必须做一次git commit 操作后才会真正成为一个新分支#
+git fetch #将远程版本库的更新去回到本地版本库，默认情况下，git fetch取回所有分支的更新，如果只想取回特定分支的更新，可以指定分支名#
 

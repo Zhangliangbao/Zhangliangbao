@@ -98,6 +98,11 @@ source ~/.bashrc
 su
 输入密码即可
 
+vs Code 需要为工程配置3个文件：
+'tasks.json':编译器配置
+'launch.json':调试器配置
+'c_cpp_properties.json':编译器路径、智能提示
+
 
 
 

@@ -82,3 +82,8 @@ git merge #把其他分支合并到当前分支#
 git checkout --orphan new_branch #创建一个全新的，完全没有历史几率的新分支，但必须做一次git commit 操作后才会真正成为一个新分支#
 git fetch #将远程版本库的更新去回到本地版本库，默认情况下，git fetch取回所有分支的更新，如果只想取回特定分支的更新，可以指定分支名#
 
+gafish大佬有个PowerVim
+git clone https://github.com/youngyangyang04/Powervim.git
+cd PowerVim
+sh install.sh
+

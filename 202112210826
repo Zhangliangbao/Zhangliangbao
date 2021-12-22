@@ -61,7 +61,13 @@ git push -u origin main
 假定你需要一个dev（此处假定远程库中已经存在此分支，也就是你需要克隆的）分支用于开发的话，你需要在dev分支上开发，就必须创建远程origin的dev分支到本地，于是用这个命令创建本地dev分支：
 $ git checkout -b dev origin/dev
 再同步下：
-$ git pull
+$ git pull #将服务器上的最新代码拉取到本地#
 这样就实现了克隆dev分支。
 
+git branch #查看分支#
+git branch -d xx #删除分支#
+git checkout xx #切换分支#
+
 rm -rf xx #删除目录#
+
+

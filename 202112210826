@@ -86,4 +86,12 @@ gafish大佬有个PowerVim
 git clone https://github.com/youngyangyang04/Powervim.git
 cd PowerVim
 sh install.sh
+可能报错，需要管理员密码
+做改动
+vi ~/.bashrc
+alias ls='ls -- color'
+alias sh='bash'
+#按：wq保存退出
+source ~/.bashrc
+
 

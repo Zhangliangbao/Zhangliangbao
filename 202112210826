@@ -107,3 +107,7 @@ df 是查看文件系统的使用空间
 du 是查看文件和目录磁盘使用的空间 -h
 
 git remote  #用于在远程仓库的操作
+git remote rm name #删除远程仓库
+git remote rename old_name new_name #修改仓库名
+
+

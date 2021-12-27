@@ -109,5 +109,9 @@ du 是查看文件和目录磁盘使用的空间 -h
 git remote  #用于在远程仓库的操作
 git remote rm name #删除远程仓库
 git remote rename old_name new_name #修改仓库名
+分支将工作切分开来，从而仍我们能够在不同开发环境中做事，并来回切换。
+git merge #分支合并，一旦某分支有独立内容，终将希望它合并到主分支，可使用该命令将任何分支合并到当前分支中
+git branch -d Learing-git #删除分支
 
-
+ssh-keygen -t rsa -C "youremail@example.com" #使用以下命令生成SSH Key
+执行 git fetch 之后紧接着执行 git merge 远程分支到你所在的任意分支。
